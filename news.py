@@ -475,6 +475,11 @@ else:
                                                 <a class="btn-action btn-exclude" href="?action=exclude&word={v['word'].lower()}" target="_parent">🚫</a>
                                             </div>
                                         </div>
+
+                                        <!-- 第二行開始：英文說明與例句 -->
+                                        <div class="details-section">
+                                            <div>{v['detail']}</div>
+                                        </div>
                                     </div>
                                     """
 
